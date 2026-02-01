@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "more-crafting-recipes",
+	"version": "${version}",
+	"name": "More crafting recipes",
+	"description": "Adds Some Recipes To The Game Lol",
+	"authors": [
+		"Arynem (ありねむ)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "Nul"
+	},
+	"license": "MIT",
+	"icon": "assets/more-crafting-recipes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.arynem.morecraftingrecipes.MoreCraftingRecipes"
+		],
+		"fabric-datagen": [
+			"com.arynem.morecraftingrecipes.MoreCraftingRecipesDataGenerator"
+		],
+		"client": [
+			"com.arynem.morecraftingrecipes.MoreCraftingClient"
+		]
+	},
+	"mixins": [
+		"more-crafting-recipes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
