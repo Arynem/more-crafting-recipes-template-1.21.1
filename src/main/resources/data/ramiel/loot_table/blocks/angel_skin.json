@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ramiel:angel_skin",
+          "weight": 1,
+          "conditions": []
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

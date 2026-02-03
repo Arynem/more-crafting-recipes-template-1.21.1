@@ -1,3 +1,7 @@
 {
-  "block.ramiel.angel_skin": "Angel Skin"
+  "item.ramiel.scrap_of_angel_skin": "Scrap Of Angel Skin",
+
+  "block.ramiel.angel_skin": "Angel Skin",
+
+  "itemgroup.ramiel.ramiel_items": "Ramiel Items"
 }

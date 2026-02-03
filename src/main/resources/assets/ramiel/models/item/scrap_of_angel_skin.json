@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ramiel:item/scrap_of_angel_skin"
+  }
+}

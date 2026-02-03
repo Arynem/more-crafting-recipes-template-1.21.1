@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ramiel:angel_skin"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ramiel:scrap_of_angel_skin"
+  }
+}

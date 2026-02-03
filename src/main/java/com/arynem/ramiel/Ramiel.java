@@ -1,6 +1,8 @@
 package com.arynem.ramiel;
 
 import com.arynem.ramiel.block.ModBlocks;
+import com.arynem.ramiel.item.ModItemGroups;
+import com.arynem.ramiel.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,5 +15,7 @@ public class Ramiel implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }

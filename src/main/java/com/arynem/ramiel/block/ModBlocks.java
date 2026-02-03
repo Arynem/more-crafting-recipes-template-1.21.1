@@ -34,6 +34,5 @@ public class ModBlocks {
 
 
             Ramiel.LOGGER.info("Registering Mod Blocks For " + Ramiel.MOD_ID);
-            ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> fabricItemGroupEntries.add(ModBlocks.Angel_Skin));
         }
 }
