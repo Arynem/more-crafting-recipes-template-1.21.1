@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "more-crafting-recipes",
+	"id": "ramiel",
 	"version": "${version}",
-	"name": "More crafting recipes",
-	"description": "Adds Some Recipes To The Game Lol",
+	"name": "Ramiel",
+	"description": "Ramiel mod",
 	"authors": [
 		"Arynem (ありねむ)"
 	],
@@ -12,21 +12,21 @@
 		"sources": "Nul"
 	},
 	"license": "MIT",
-	"icon": "assets/more-crafting-recipes/icon.png",
+	"icon": "assets/ramiel/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.arynem.morecraftingrecipes.MoreCraftingRecipes"
+			"com.arynem.ramiel.Ramiel"
 		],
 		"fabric-datagen": [
-			"com.arynem.morecraftingrecipes.MoreCraftingRecipesDataGenerator"
+			"com.arynem.ramiel.RamielDataGenerator"
 		],
 		"client": [
-			"com.arynem.morecraftingrecipes.MoreCraftingClient"
+			"com.arynem.ramiel.RamielClient"
 		]
 	},
 	"mixins": [
-		"more-crafting-recipes.mixins.json"
+		"ramiel.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
